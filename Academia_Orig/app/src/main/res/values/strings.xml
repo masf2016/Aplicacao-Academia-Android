@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Academia</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_academia">Tela de Início</string>
+    <string name="title_activity_cadastro_usuario_academia">Cadastro de Usuário</string>
+    <string name="loginTela_topo">Entre com seus dados</string>
+    
+    <string name ="loginTelaButton">ENTRAR</string>
+    <string name="inicioTelaButtonDieta">Dieta</string>
+    <string name="inicioTelaButtonCronometro">Cronômetro</string>
+    <string name="inicioTelaButtonPlayMusic">Minha Play List</string>
+    <string name="inicioTelaButtonTreino">Treino</string>
+    <string name="inicioTelaButtonSair">SAIR</string>
+    <string name="inicioTelaButtonVoltar">VOLTAR</string>
+    <string name="dietaTelaButtonSegunda">SEGUNDA</string>
+    <string name="dietaTelaButtonTerca">TERÇA</string>
+    <string name="dietaTelaButtonQuarta">QUARTA</string>
+    <string name="dietaTelaButtonQuinta">QUINTA</string>
+    <string name="dietaTelaButtonSexta">SEXTA</string>
+    <string name="dietaTelaButtonSabado">SÁBADO</string>
+    <string name="dietaTelaButtonDomingo">DOMINGO</string>
+    <string name="cardapioTelaButtonCafeManha">Café da Manhã</string>
+    <string name="cardapioTelaButtonAlmoco">Almoço</string>
+    <string name="cardapioTelaButtonJanta">Janta</string>
+    <string name="cardapioTelaButtonLanche">Lanche</string>
+    <string name="cronometroTelaButtonIniciar">Iniciar</string>
+    <string name="cronometroTelaButtonParar">Parar</string>
+    <string name="cardapioTextSegunda">Cardapio saudável para segunda</string>
+
+    <string name="title_activity_inicioTela">Menu Principal</string>
+    <string name="title_activity_dieta">Dieta da Semana</string>
+    <string name="title_activity_treino">Tabela de Treino</string>
+    <string name="title_activity_cardapio">Dicas de Cardápio</string>
+    <string name="title_activity_cronometro">Cronômetro</string>
+    <string name="title_activity_play_list">Seleção de PlayList</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_cardapio_segunda">Segunda Feira</string>
+
+    <!-- chave para GoogleMaps -->
+    <string name="google_maps_key">AIzaSyBqeuhd9bqVMwzHgcyM3fO2ytB0J1LBrb8</string>
+    <!---->
+
+    <string name="title_activity_cadastro_usuario">CadastroUsuarioActivity</string>
+
+</resources>

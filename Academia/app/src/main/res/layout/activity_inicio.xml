@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="Inicio"
+    android:background="#43CD80"
+    android:id="@+id/id">
+
+    <TextView android:text="@string/title_activity_inicioTela" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:layout_below="@+id/textViewOlaInicio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicioTelaButtonDieta"
+        android:id="@+id/buttonDieta"
+        android:layout_marginTop="42dp"
+
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/buttonTreino"
+        android:layout_alignStart="@+id/buttonTreino"
+        android:layout_alignRight="@+id/buttonTreino"
+        android:layout_alignEnd="@+id/buttonTreino" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicioTelaButtonTreino"
+        android:id="@+id/buttonTreino"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/buttonDieta"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicioTelaButtonParque"
+        android:id="@+id/buttonParque"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/buttonTreino"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicioTelaButtonSair"
+        android:background="#00FF7F"
+        android:id="@+id/buttonVoltar"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textViewUsuario"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ola"
+        android:id="@+id/textViewOlaInicio"
+        android:layout_alignTop="@+id/textViewUsuario"
+        android:layout_toRightOf="@+id/buttonVoltar"
+        android:layout_toEndOf="@+id/buttonVoltar" />
+
+</RelativeLayout>

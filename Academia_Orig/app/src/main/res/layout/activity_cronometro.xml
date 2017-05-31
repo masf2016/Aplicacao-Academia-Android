@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#FFD39B"
+    tools:context="academia.com.br.academia.CronometroActivity">
+
+    <TextView
+        android:text="@string/title_activity_cronometro"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cronometroTelaButtonIniciar"
+        android:id="@+id/buttonCronometroIniciar"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicioTelaButtonVoltar"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cronometroTelaButtonParar"
+        android:id="@+id/buttonCronometroParar"
+        android:layout_below="@+id/buttonCronometroIniciar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/buttonCronometroIniciar"
+        android:layout_alignEnd="@+id/buttonCronometroIniciar" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format="Total (%s)"
+        android:text="Cronômetro"
+        android:textSize="28dp"
+        android:id="@+id/chronometerTelaCronometro"
+        android:layout_above="@+id/buttonCronometroIniciar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Academia</string>
+
+    <string name="title_activity_login_academia">Tela de Início</string>
+    <string name="title_activity_cadastro_usuario">Cadastro de Usuário</string>
+
+    <string name="loginTela_topo">Entre com seus dados</string>
+    
+    <string name ="loginTelaButton">ENTRAR</string>
+    <string name="inicioTelaButtonDieta">Dieta</string>
+    <string name="inicioTelaButtonParque">Parques e Praças</string>
+    <string name="inicioTelaButtonTreino">Treino</string>
+    <string name="inicioTelaButtonSair">SAIR</string>
+    <string name="inicioTelaButtonVoltar">VOLTAR</string>
+    <string name="dietaTelaButtonSegunda">SEGUNDA</string>
+    <string name="dietaTelaButtonTerca">TERÇA</string>
+    <string name="dietaTelaButtonQuarta">QUARTA</string>
+    <string name="dietaTelaButtonQuinta">QUINTA</string>
+    <string name="dietaTelaButtonSexta">SEXTA</string>
+    <string name="dietaTelaButtonSabado">SÁBADO</string>
+    <string name="dietaTelaButtonDomingo">DOMINGO</string>
+    <string name="cardapioTelaButtonCafeManha">Café da Manhã</string>
+    <string name="cardapioTelaButtonAlmoco">Almoço</string>
+    <string name="cardapioTelaButtonJanta">Janta</string>
+    <string name="cardapioTelaButtonLanche">Lanche</string>
+    <string name="cardapioTextSegunda">Cardapio saudável para segunda</string>
+
+    <string name="title_activity_inicioTela">Menu Principal</string>
+    <string name="title_activity_dieta">Dieta da Semana</string>
+    <string name="title_activity_treino">Tabela de Treino</string>
+    <string name="title_activity_cardapio">Dicas de Cardápio</string>
+    <string name="title_activity_maps">Mapa - Locais Para Atividades Físicas</string>
+    <string name="title_activity_cardapio_segunda">Segunda Feira</string>
+
+    <string name="action_cadastro">Cadastrar</string>
+    <string name="alerta">Alerta</string>
+    <string name="alerta_mensagem_login">Usuário não cadastrado, Cadastre-se.</string>
+    <string name="alerta_mensagem_cadastro_s">Usuário salvo, por favor faça o login.</string>
+    <string name="alerta_mensagem_cadastro_e">Já Existe um usuário cadastrado com este nome.</string>
+    <string name="positive_button">Sim</string>
+    <string name="usuario_novo">Novo? Faça seu Cadastro</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Digite o seu nome</string>
+    <string name="senha_c">Digite a sua senha</string>
+    <string name="redigite_senha">Redigite a senha</string>
+
+    <string name="erro_nome">Nome não pode ser vazio</string>
+    <string name="erro_senha">Senha não pode ser vazia</string>
+    <string name="erro_confirmacao_senha">Confirmação de senha não pode ser vazio</string>
+    <string name="erro_nao_iguais">Senha e Confirmação de senha não são iguais</string>
+    <string name="ola">Olá</string>
+
+
+    <!-- chave para GoogleMaps -->
+    <string name="google_maps_key">AIzaSyBqeuhd9bqVMwzHgcyM3fO2ytB0J1LBrb8</string>
+    <!-- -->
+
+
+    <string name="title_activity_detalhe_treino">Detalhe do Treino</string>
+
+    <string name="treino_segunda">Ombro e Antebraço</string>
+    <string name="treino_terca">Costas e Bíceps</string>
+    <string name="treino_quarta">Peito Tríceps</string>
+    <string name="treino_quinta">Pernas (Posterior)</string>
+    <string name="treino_sexta">Pernas (Anterior)</string>
+
+    <string name="cafe_segunda">Banana com Aveia</string>
+    <string name="cafe_terca">Ovos diet</string>
+    <string name="cafe_quarta">Pão Integral</string>
+    <string name="cafe_quinta">Papa de Aveia</string>
+    <string name="cafe_sexta">Vitamina super proteica</string>
+    <string name="cafe_sabado">Descanso</string>
+    <string name="cafe_domingo">Descanso</string>
+
+    <string name="almoco_segunda">Feijão com Arroz</string>
+    <string name="almoco_terca">Peito de Frango grelhado</string>
+    <string name="almoco_quarta">Lasanha soft</string>
+    <string name="almoco_quinta">Arumadinho diet</string>
+    <string name="almoco_sexta">Salada de verduras</string>
+    <string name="almoco_sabado">Descando</string>
+    <string name="almoco_domingo">Descanso</string>
+
+    <string name="janta_segunda">Tofu</string>
+    <string name="janta_terca">Quinua</string>
+    <string name="janta_quarta">Salmão</string>
+    <string name="janta_quinta">Massa Integral</string>
+    <string name="janta_sexta"> Peito de Peru</string>
+    <string name="janta_sabado">Descanso</string>
+    <string name="janta_domingo">Descanso</string>
+
+    <string name="lanche_segunda">Castanha-do-Pará</string>
+    <string name="lanche_terca">Yogurte Natural</string>
+    <string name="lanche_quarta">Pão Integral</string>
+    <string name="lanche_quinta">Salada de Frutas</string>
+    <string name="lanche_sexta">Bolo proteico</string>
+    <string name="lanche_sabado">Descanso</string>
+    <string name="lanche_domingo">Descanso</string>
+    <!---->
+</resources>

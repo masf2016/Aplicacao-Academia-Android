@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#7FFFD4"
+    tools:context="academia.com.br.academia.DietaActivity"
+    android:id="@+id/Relative">
+
+    <TextView android:text="@string/title_activity_dieta"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dietaTelaButtonSegunda"
+        android:id="@+id/buttonSegunda"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dietaTelaButtonTerca"
+        android:id="@+id/buttonTerca"
+        android:layout_alignTop="@+id/buttonQuarta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dietaTelaButtonQuarta"
+        android:id="@+id/buttonQuarta"
+        android:layout_below="@+id/buttonSegunda"
+        android:layout_alignRight="@+id/buttonVoltar"
+        android:layout_alignEnd="@+id/buttonVoltar"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dietaTelaButtonQuinta"
+        android:id="@+id/buttonQuinta"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dietaTelaButtonSexta"
+        android:id="@+id/buttonSexta"
+        android:layout_alignTop="@+id/buttonQuinta"
+        android:layout_alignLeft="@+id/buttonQuarta"
+        android:layout_alignStart="@+id/buttonQuarta" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dietaTelaButtonSabado"
+        android:id="@+id/buttonSabado"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/buttonSexta"
+        android:layout_alignLeft="@+id/buttonSexta"
+        android:layout_alignStart="@+id/buttonSexta" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dietaTelaButtonDomingo"
+        android:id="@+id/buttonDomingo"
+        android:layout_alignTop="@+id/buttonSabado"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicioTelaButtonSair"
+        android:id="@+id/buttonSair"
+        android:layout_alignParentBottom="true"
+         />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicioTelaButtonVoltar"
+        android:id="@+id/buttonVoltar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
